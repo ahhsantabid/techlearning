@@ -1,0 +1,295 @@
+
+
+.contactContainer{
+    background-color: rgb(251, 249, 249);
+    max-width: 90%;
+    margin: 0px auto;
+    justify-content: space-around;
+    display: flex;
+    height: 600px;
+}
+.locationContainer{
+    text-align: center;
+    align-items: center;
+    margin: 4em 7.5em;
+}
+ .para{
+    font-size: 23px;
+    font-family: 'Poppins';
+    padding: 36px;
+}
+.locationImage{
+    margin: 8em 21px;
+    /* border-radius: 32px; */
+}
+.locationImage img{border-radius: 19px;
+    box-shadow: 2px 2px 5px;}
+
+.containerForm{
+    height: 700px;
+   
+}
+.mb-3{
+    padding: 7px;
+}
+.container{
+    max-width: 1000px;
+    width: 52%;
+    margin: 0px auto;
+       
+    
+}
+
+@media screen and (max-width:1350px) {
+
+    .para{
+        font-size: 21px;
+        font-family: 'Poppins';
+        padding: 36px;
+    }
+    
+}
+@media screen and (max-width:1280px) {
+
+    .html{
+        font-size: 1.5em;
+    }
+
+    .para{
+        font-size: 19px;
+        font-family: 'Poppins';
+        padding: 36px;
+    }
+    .locationImage{
+        margin: 8em 18px;
+        /* border-radius: 32px; */
+    }
+
+    
+}
+
+@media screen and (max-width:1280px) {
+    .para{
+        font-size: 17px;
+        font-family: 'Poppins';
+        padding: 36px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .locationImage{
+        margin: 8em 17px;
+    }
+    .locationImage img{
+        width: 522px;
+    }
+    .container{
+        max-width: 1000px;
+        width: 40%;
+        margin: 0px auto;
+
+}
+}
+@media screen and (max-width:1220px) {
+    .locationImage img{
+        width: 500px;
+    }
+    .locationImage{
+        margin: 8em 20px;
+    }
+    .container{
+        max-width: 1000px;
+        width: 45%;
+        margin: 0px auto;
+}
+}
+
+@media screen and (max-width:1188px) {
+    .locationImage img{
+        width: 420px;
+    }
+    .locationImage{
+        margin: 8em 22px;
+    }
+    .container{
+        max-width: 1000px;
+        width:42%;
+        margin: 0px auto;
+
+}
+}
+@media screen and (max-width:1080px) {
+    .locationImage img{
+        width: 390px;
+    }
+    .locationImage{
+        margin: 8em 24px;
+    }
+    .container{
+        max-width: 1000px;
+        width:35%;
+        margin: 0px auto;
+
+}
+}
+@media screen and (max-width:1022px) {
+
+.contactContainer{
+    flex-direction: column;
+
+}
+.location{
+    
+    text-align: center;
+}
+.locationImage{
+        align-items: center;
+        display: flex;
+        margin: 0px auto;
+        margin-bottom: 5rem;
+}
+.locationImage img{
+    width: 365px;
+}
+
+}
+@media screen and (max-width:780px) {
+          .html{
+            font-size: 1.1rem;
+          }
+          .contactContainer{
+                    height: 700px;
+                    margin-bottom: 2rem;
+          }
+          .locationImage img{
+            width: 350px;
+        }
+}
+@media screen and (max-width:680px) {
+    .html{
+        font-size: 1rem;
+      }
+      .contactContainer{
+                height: 720px;
+               
+      }
+
+}
+@media screen and (max-width:595px) {
+    .html{
+        font-size: 1rem;
+      }
+      .contactContainer{
+                height: 740px;
+               
+      }
+      .locationImage img{
+        width: 330px;
+    }
+    }
+
+    @media screen and (max-width:595px) {
+        .html{
+            font-size: 1rem;
+          }
+          .contactContainer{
+                    height: 790px;
+                   
+          }
+          .locationImage img{
+            width: 310px;
+        }
+        }
+        @media screen and (max-width:520px) {
+            .html{
+                font-size: 0.8rem;
+              }
+              .contactContainer{
+                        height: 800px;
+                       
+              }
+              .locationImage img{
+                width: 300px;
+            }
+            }
+            @media screen and (max-width:507px) {
+                .html{
+                    font-size: 0.7rem;
+                  }
+                  .contactContainer{
+                            height: 840px;
+                           
+                  }
+                  .locationImage img{
+                    width:285px;
+                }
+                .para{
+                    text-align: center;
+                }
+            }
+                @media screen and (max-width:472px) {
+                    .html{
+                        font-size: 0.6rem;
+                      }
+                      .contactContainer{
+                                height: 860px;
+                               
+                      }
+                      .para{
+                        text-align: center;
+                    }
+
+                      .locationImage img{
+                        width:260px;
+                    }
+                    }
+                    @media screen and (max-width:462px) {
+                        .html{
+                            font-size: 0.4rem;
+                          }
+                          .contactContainer{
+                                    height: 880px;
+                                    margin: 0px auto;
+                                   
+                          }
+                          .locationImage img{
+                            width:225px;
+                        }
+                        
+                        .location{
+                          
+                            font-size: 21px;
+                            font-weight: bold;
+                        }
+                        .locationContainer{
+                            text-align: center;
+                            align-items: center;
+                            margin: 1em 3em;
+                      
+                        }
+                    }
+                    @media screen and (max-width:392px) {
+                        .html{
+                            font-size: 0.4rem;
+                          }
+                          .contactContainer{
+                                    height: 880px;
+                                    margin: 0px auto;
+                                   
+                          }
+                          .locationImage img{
+                            width:225px;
+                        }
+                        
+                        .location{
+                          
+                            font-size: 21px;
+                            font-weight: bold;
+                        }
+                        .locationContainer{
+                            text-align: center;
+                            align-items: center;
+                            margin: 1em 3em;
+                      
+                        }
+                    }

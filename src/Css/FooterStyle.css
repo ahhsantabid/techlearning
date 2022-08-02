@@ -1,0 +1,48 @@
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.icon{
+    margin-right: 1em;
+    align-items: center;
+}
+.line{
+    color: white;
+    width: 30%;
+
+
+}
+hr{
+    margin-bottom: 0.5em;
+   border-bottom: 5px white;
+}
+.copyright p{
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    margin-top: 3px;
+}
+
+@media  screen and (max-width:1240px) {
+
+    .copyright p{
+    
+    margin-right: 1rem;
+}
+}
+@media  screen and (max-width:1015px) {
+    html{
+        font-size: 15px;
+    }
+}
+@media  screen and (max-width:800px) {
+   .line{
+    display: none;
+   }
+
+}
